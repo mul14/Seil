@@ -21,7 +21,7 @@ org_pqrs_driver_Seil::HookedKeyboard org_pqrs_driver_Seil::hookedKeyboard_[MAXNU
 BridgeConfig org_pqrs_driver_Seil::configuration_;
 
 // ----------------------------------------------------------------------
-// http://developer.apple.com/documentation/DeviceDrivers/Conceptual/WritingDeviceDriver/CPluPlusRuntime/chapter_2_section_3.html
+// https://developer.apple.com/library/content/documentation/DeviceDrivers/Conceptual/WritingDeviceDriver/CPluPlusRuntime/CPlusPlusRuntime.html#//apple_ref/doc/uid/TP30000695-BAJCCBGJ
 
 // This convention makes it easy to invoke base class member functions.
 #define super IOService
